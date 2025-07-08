@@ -40,27 +40,16 @@ All data used in this project comes from the U.S. Health Resources and Services 
 **Years**: 2018–2022  
 **Files**: State-level ZIP files containing clinical, demographic, financial, and quality metrics
 
-## 🛠 Getting Started
 
-### Clone the repository:
-```bash
-git clone https://github.com/smozley/fqhc-performance-analysis.git
-cd fqhc-performance-analysis
-### Set up the environment:
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-pip install -r requirements.txt
-### Launch the notebook:
-jupyter notebook notebooks/01_eda_fqhc.ipynb
-📈 Output
+### 📈 Output
 Line charts and bar graphs comparing TX vs. other states over 5 years
 
 Summary tables highlighting performance gaps and strengths
 
 Visual materials for presentation to public health leadership
 
-🤝 Contributing
+### 🤝 Contributing
 This project is part of a graduate practicum and is not open for public contributions at this time.
 
-📄 License
+### 📄 License
 This repository is for educational and public health research purposes only. Please cite HRSA if using data derived from their downloads.
