@@ -1,15 +1,16 @@
-# FQHC Performance Analysis: Texas vs. Top Performing States
+# 🏥 FQHC Performance & Equity Analysis (2019–2023)
+This project analyzes patient demographics and service trends from Federally Qualified Health Centers (FQHCs) across Texas and peer states (California, Massachusetts, New York, and Oregon) using HRSA Uniform Data System (UDS) data from 2019 to 2023. The goal is to support data-driven decisions for health equity planning and resource allocation.
 
-This project analyzes Federally Qualified Health Center (FQHC) performance metrics across multiple states using 5 years of Uniform Data System (UDS) data provided by HRSA. The goal is to compare Texas with high-performing states on key public health indicators to identify opportunities for improvement.
 
 ## 📊 Project Goals
 
 - Compare Texas FQHC performance to high-performing states (e.g., CA, MA, OR, NY, MN)
-- Focus on key indicators:
-  - Prenatal care initiation (1st trimester)
-  - Hypertension control
-  - Diabetes management (HbA1c > 9.0%)
-  - Insurance coverage and Medicaid access
+- Key Metrics Analyzed:
+  Total patients served per year per state
+  % adults aged 18–64
+  % racial/ethnic minority patients
+  % Hispanic/Latino patients
+  These indicators were selected to highlight equity-relevant service delivery patterns.
 - Provide visualizations and insights to inform public health strategy and funding decisions
 
 ## 🗂 Directory Structure
@@ -30,6 +31,7 @@ fqhc-performance-analysis/
 │
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview (this file)
+
 ## 🔍 Data Source
 
 All data used in this project comes from the U.S. Health Resources and Services Administration (HRSA):
